@@ -1,0 +1,29 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Install Stage
+      - npm shrinkwrap
+  pre_build:
+    commands:
+      - echo Pre Build Stage
+      - npm link typescript 
+      - npm link webpack 
+      - npm link express
+  build:
+    commands:
+      - echo Build Stage
+      - npm run build
+  post_build:
+    commands:
+      - echo Post Build Stage
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - build/**/*
+    - package.json
+    - server.js
+    - node_modules/express/*
+    

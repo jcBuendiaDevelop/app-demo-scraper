@@ -1,0 +1,33 @@
+export default interface Pcpns  {
+    supplier: string;
+    incoterm: string;
+    length: number;
+    width: number;
+    heigth: number;
+    messureType: string;
+    packlength: number;
+    packwidth: number;
+    packheifgth: number;
+    packMesureType: string;
+    weight: number;
+    isElecttronic: boolean;
+    amps: number;
+    watts: number;
+    samplesInStock: number;
+    samplesTime: Date;
+    sampleCost: number;
+    moq: number;
+    confirmMoq: number;
+    ManufacturinTime: number;
+    confirmManufacturinTime: number;
+    unitCost: number;
+    piecesPerContainerHQ: number;
+    piecesPerContainer20: number;
+    piecesPerContainer40: number;
+    fair: string;
+    edition: string;
+    description: string;
+    acdesories: string;
+    additionalComents: string;
+    productSpecifiction: string;
+}

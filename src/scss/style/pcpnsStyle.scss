@@ -1,0 +1,130 @@
+.CategoryPcpn{
+    width: 26.3%;
+    height: 100%;
+    color: white;
+    background-color: #21252A;
+    margin-left: 15%;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+.CategoryPcpnClose{
+    width: 33.3%;
+    height: 100%;
+    color: white;
+    background-color: #21252A;
+    margin-left: 0%;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputSearch{
+ display: flex;
+ align-items: baseline;
+}
+
+.textSearch{
+    padding: 6px 13px 12px 11px;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #ababab;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 4px;
+}
+
+.formControl{
+   font-size: 14px;    
+   padding: 13px 170px;
+   font-weight: 300;
+   line-height: 1;
+   color: #555;
+   text-align: center;
+   background-color: #eee;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.baseViwer{
+    font-Size: 12px;
+    background:  #282C34;
+    border: solid 1px black;
+    padding: 20px;
+    color: #9DA5AB;
+    width: 28.3%;
+    transition: 0.3s;
+
+}
+
+.StyleDetail{
+    width: 26.3%;
+    margin: auto;
+    align-items: center;
+}
+
+.baseViwerClose{
+    font-Size: 12px;
+    background:  #282C34;
+    border: solid 1px black;
+    padding: 20px;
+    color: #9DA5AB;
+    width: 33.3%;
+    transition: 0.3s;
+}
+
+.cardHeader {
+    display: flex;
+    height: 125px;
+    justify-Content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    position: relative;
+    right: 7px;
+    top: 1px;
+}
+.impProduct{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 3px solid #000000;
+}
+.headerName {
+    margin: 0;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: right;
+}
+.CardContainer {
+    width: 100%;
+    overflow: hidden;
+    background:  #282C34;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: auto;
+}
+
+.producTitle{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #282C34;
+  }
+
+.cardProduct {
+    background: rgb(96, 99, 105);
+    margin-top: 1px;
+    cursor: pointer;
+  }
+
+.mySlides {
+    display:none;
+    
+}
