@@ -20,7 +20,7 @@
     "@babel/core": "^7.1.5",
     "@types/react": "^16.0.25",
     "@types/react-dom": "^16.0.3",
-    "acorn": "^6.0.4",
+    "acorn": "^6.4.1",
     "babel-loader": "^8.0.4",
     "breakpoint-sass": "^2.7.1",
     "breakpoint-slicer": "^2.0.0",
